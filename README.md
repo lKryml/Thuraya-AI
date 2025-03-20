@@ -1,20 +1,19 @@
-# Legal Assistant
+# Thuraya AI
 
 A modern, AI-powered legal assistant application built with React, TypeScript, and Tailwind CSS. This application provides an intuitive interface for legal consultations and document analysis.
-
-
 ![alt text](frontend/public/image.png)
 
-
 ## Usage
-![alt text](frontend/public/Usage.gif)
+https://github.com/user-attachments/assets/428452d4-8bd6-430c-80e4-f18fada751f5
 
 
 ## onboarding
-![alt text](frontend/public/onBoarding.gif)
+https://github.com/user-attachments/assets/6cf637e4-d3b8-4e67-af54-d80d5afb1e7a
+
 
 ## PWA
-![alt text](frontend/public/PWA.gif)
+https://github.com/user-attachments/assets/2f139b45-fe94-4db0-aa1b-569b35c15dd3
+
 
 ## Features
 
