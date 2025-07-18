@@ -1,0 +1,57 @@
+# Bundle Analysis for Thuraya AI Frontend
+
+## Current Dependencies Analysis
+Based on package.json analysis:
+
+### Core Dependencies:
+- React 19.0.0
+- React DOM 19.0.0  
+- Vite 6.2.2 (build tool)
+- TypeScript ~5.7.2
+
+### UI/Styling:
+- Tailwind CSS 4.0.13
+- @tailwindcss/vite 4.0.13
+- tailwindcss-animate 1.0.7
+- Lucide React 0.479.0 (icons)
+- @radix-ui/react-slot 1.1.2
+
+### State Management:
+- Zustand 5.0.3
+
+### Routing:
+- React Router DOM 7.3.0
+
+### Content/Markdown:
+- React Markdown 10.1.0
+- remark-gfm 4.0.1
+
+### AI/API:
+- @google/generative-ai 0.24.0
+
+### PWA:
+- vite-plugin-pwa 0.21.1
+
+### Utilities:
+- class-variance-authority 0.7.1
+- clsx 2.1.1
+- tailwind-merge 3.0.2
+- uuid 11.1.0
+
+## Bundle Size Estimation:
+- React + React DOM: ~45KB gzipped
+- Tailwind CSS: ~10-15KB (purged)
+- Lucide Icons: ~5-10KB (tree-shaken)
+- Zustand: ~3KB
+- React Router: ~8KB
+- React Markdown: ~15KB
+- Google Generative AI: ~20KB
+- Other utilities: ~5KB
+
+**Estimated Total: ~110-125KB gzipped**
+
+## Optimization Opportunities:
+1. Code splitting by route
+2. Lazy loading of heavy components
+3. Icon tree-shaking optimization
+4. Bundle analysis with actual build
